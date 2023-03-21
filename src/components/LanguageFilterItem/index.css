@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.language-list-item {
+  margin: 5px;
+}
+
+.language {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 5px;
+}
+.active-language {
+  background-color: transparent;
+  border: 2px solid #0284c7;
+  outline: none;
+  color: #0284c7;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

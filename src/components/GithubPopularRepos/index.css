@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popular-heading {
+  font-family: 'Lobster';
+}
+.unorder-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+.failure-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 250px;
+  width: 250px;
+}
+
+.failure-message {
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-size: 25px;
+}
+.repo-cont {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
